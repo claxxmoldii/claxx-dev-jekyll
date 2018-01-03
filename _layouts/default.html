@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include blog-head.html %}
+  {% if page.style %}
+ <style type="text/css">
+     {{ page.style }}
+ </style>
+{% endif %}
+</head>
+  <body>
+    <a href="/#jekyllBlog">blogRoll</a>
+     {{ content }}
+  </body>
+</html>
