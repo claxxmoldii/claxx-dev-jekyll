@@ -1,5 +1,6 @@
 name: claxx dev jekyll
 
-baseurl: "/claxx-dev-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
-siteurl: "https://claxxmoldii.github.io"
+
+siteurl: "/claxx-dev-jekyll"
