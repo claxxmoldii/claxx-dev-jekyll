@@ -9,7 +9,10 @@
 {% endif %}
 </head>
   <body>
-    <a href="/#jekyllBlog">blogRoll</a>
+    <!-- <a href="/#jekyllBlog">blogRoll</a> -->
+    <a class="post-link" href="{{ post.url }}/#blogPost">
+            {{ post.title | escape }}
+          </a>
      {{ content }}
   </body>
 </html>
